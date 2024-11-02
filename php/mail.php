@@ -27,8 +27,8 @@ $toEmail = "pec026@ucsd.edu"; // Replace Your Email Address
   // Sender's Email
 --------------------------------------------- */
 
-$fromEmail = "no-reply@website.com";  // Replace Company's Email Address (preferably currently used Domain Name)
-$fromName = "Company Name"; // Replace Company Name
+$fromEmail = "no-reply@ucsd.edu";  // Replace Company's Email Address (preferably currently used Domain Name)
+$fromName = "Portfolio Website"; // Replace Company Name
 
 
 /* --------------------------------------------
@@ -36,7 +36,7 @@ $fromName = "Company Name"; // Replace Company Name
   --------------------------------------------- */
 
 // Add this only if you want to use Google reCaptcha with your Contact Forms.
-$recaptcha_secret = 'YOUR_RECAPTCHA_SECRET_KEY'; // Your Google reCaptcha Secret
+// $recaptcha_secret = 'YOUR_RECAPTCHA_SECRET_KEY'; // Your Google reCaptcha Secret
 
 
 /* --------------------------------------------
@@ -51,10 +51,18 @@ if (isset($_POST['name'])) {
 	PHPMailer Initialization
 ---------------------------------------------------*/
 
-$mail = new PHPMailer(true);
+$mail = new PHPMailer(false);
 
 /* Add your SMTP Codes after this Line */
 
+$mail->isSMTP();
+$mail->SMTPDebug = 0;
+$mail->Host = 'mail.yourdomain.com';
+$mail->SMTPAuth = true;
+$mail->Username = "yourname@yourdomain.com";
+$mail->Password = "yourpassword";
+$mail->SMTPSecure = 'tls';
+$mail->Port = 587;
 
 // End of SMTP
 
