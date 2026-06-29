@@ -1,7 +1,7 @@
 ---
 title: "A Detailed Analysis of Techniques for Bypassing Anthropic's Mythos/Fable 5 Safety Guardrails"
 date: "2026-06-26"
-tags: ["LLM Security", "Reasoning"]
+tags: ["Security", "Reasoning"]
 excerpt: "A detailed technical report on claimed safety-guardrail bypass techniques against Anthropic's Mythos/Fable 5."
 ---
 
