@@ -16,6 +16,34 @@ You can see Astro Academia at the following link: <a href="https://maiobarbero.g
 
 Fork this repository to create your new website starting from this template.
 
+## Developer note: viewing the site
+
+This repository is an Astro site. To view the main webpage locally, run:
+
+```powershell
+cd C:\Users\Xavier\mydocs\github\chenpy2000.github.io
+npm run dev
+```
+
+Then open the local URL Astro prints in the terminal, usually:
+
+```text
+http://localhost:4321
+```
+
+For a production-style local preview, run:
+
+```powershell
+npm run build
+npm run preview
+```
+
+The published GitHub Pages site for this repository is expected to be:
+
+```text
+https://chenpy2000.github.io
+```
+
 ## How to Create a CV Using the `cv.ts` File
 
 The `cv.ts` file located in the `src/data/` directory is used to define the structure and content of your CV. This file exports an object containing various sections of your CV, such as education, experience, publications, and more.

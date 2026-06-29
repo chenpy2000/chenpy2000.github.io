@@ -17,10 +17,24 @@ export const experiences = [
 
 export const education = [
 	{
-		school: '',
-		time: '',
+		school: 'Tongji University',
+		time: '2018 - 2023',
+		degree: 'Bachelor of Engineering in Vehicle Engineering',
+		location: 'Shanghai, China',
+		description: '',
+	},
+	{
+		school: 'Technical University of Munich',
+		time: '2022',
 		degree: '',
-		location: '',
+		location: 'Munich, Germany',
+		description: 'Visiting Researcher in bipedal bio-robots',
+	},
+	{
+		school: 'University of California, San Diego',
+		time: '2024 - 2026',
+		degree: 'Master of Science in Computer Science',
+		location: 'La Jolla, CA',
 		description: '',
 	},
 	// {

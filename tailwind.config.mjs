@@ -41,5 +41,5 @@ export default {
             "sunset",
         ],
     },
-    // darkMode: ['selector', '[data-theme="synthwave"]']
+    darkMode: ['selector', '[data-theme="synthwave"]']
 };
